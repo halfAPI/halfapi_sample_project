@@ -1,0 +1,9 @@
+[project]
+name = test_api
+halfapi_version = 0.5.3
+secret = .halfapi/secret
+port = 3000
+loglevel = debug
+
+[domains]
+test_domain = .routers
